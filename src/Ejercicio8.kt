@@ -31,16 +31,12 @@ class Personaje{
         return edad
     }
 
-    //Funcion que me un nombre de 5 aleatorio
+    //Funcion que me de un nombre aleatorio de un array de 5
     fun Nombre():String{
         var nombre : String = " "
-        var letras = arrayOf("a","b","c","d","e","f","g","h","i","j","k","l","m","n","ñ","o","p","q","r","s","t","u","v","w","x","y","z")
-        var cont = 0
+        var nombres = arrayOf("Jack","John","Jhonny","Jhon","Jhonathan")
 
-        while(cont<5){
-            nombre += letras.random()
-            cont++
-        }
+        nombre = nombres.random()
 
         return nombre
     }
