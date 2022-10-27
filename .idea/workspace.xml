@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0063999a-c243-4d95-93bb-6e7676546211" name="Changes" comment="Commit 7">
+    <list default="true" id="0063999a-c243-4d95-93bb-6e7676546211" name="Changes" comment="Commit 8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Comunicacion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Comunicacion.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ejercicio8.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio8.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Personaje.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personaje.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666890745434</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commit 8">
+      <created>1666893234475</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666893234475</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +127,7 @@
     <MESSAGE value="Commit 5" />
     <MESSAGE value="Commit 6" />
     <MESSAGE value="Commit 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 7" />
+    <MESSAGE value="Commit 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 8" />
   </component>
 </project>

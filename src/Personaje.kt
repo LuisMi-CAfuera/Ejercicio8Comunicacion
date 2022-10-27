@@ -1,12 +1,14 @@
 class Personaje{
     var nombre = Nombre()
-    var clase = Raza()
+    var raza = Raza()
     var estado = Edad()
+    var clase = Clase()
 
-    constructor(nombre: String, clase: String, estado: String) {
+    constructor(nombre: String, clase: String, estado: String,raza: String) {
         this.nombre = nombre
         this.clase = clase
         this.estado = estado
+        this.raza = raza
     }
     constructor()
 
@@ -39,15 +41,28 @@ class Personaje{
         return nombre
     }
 
+    //Funcion que me diga que tipo de clase soy en un rpg entre 4
+    fun Clase():String{
+        var clase : String = " "
+        var clases = arrayOf("Guerrero","Mago","Ladron","Berserk")
+
+        clase = clases.random()
+
+        return clase
+    }
+
+
     fun crearPersonaje():Personaje{
         var personaje = Personaje()
 
         println("¿Que raza quieres que sea?(Elfo,Humano,Enano,Goblin o una que te inventes)")
-        personaje.clase = readLine().toString()
+        personaje.raza = readLine().toString()
         println("¿Que nombre quieres que tenga?(Si el personaje es un Elfo o un Goblin el nombre estara en elfico o goblin)")
         personaje.nombre = readLine().toString()
         println("¿Que edad quieres que tenga?(Adolescente,Adulto o Anciano)")
         personaje.estado = readLine().toString()
+        println("¿Que clase quieres ser?(Mago,Guerrero,Ladron o Berserk)")
+        personaje.clase = readLine().toString()
 
         return personaje
     }

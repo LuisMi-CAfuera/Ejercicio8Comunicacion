@@ -10,16 +10,16 @@ fun main() {
     var respuesta = readLine().toString()
 
     if (respuesta == "S" || respuesta == "s" || respuesta == "Si" || respuesta == "si") {
-        println("El personaje es ${personaje.clase},${personaje.nombre},${personaje.estado}")
+        println("El personaje es ${personaje.clase},${personaje.nombre},${personaje.estado},${personaje.clase}")
     } else {
         personaje = personaje.crearPersonaje()
-        println("El personaje es ${personaje.clase},${personaje.nombre},${personaje.estado}")
+        println("El personaje es ${personaje.clase},${personaje.nombre},${personaje.estado},${personaje.clase}")
     }
 
 
 
     if (personaje.estado == "Adolescente" || personaje.estado == "adolescente") {
-        Comunicacion().adolescente(personaje.nombre, personaje.clase)
+        Comunicacion().adolescente(personaje.nombre, personaje.raza)
     } /*else {
         if (personaje.estado == "Adulto" || personaje.estado == "adulto") {
             //Comunicacion().adulto(personaje.nombre, personaje.clase)
