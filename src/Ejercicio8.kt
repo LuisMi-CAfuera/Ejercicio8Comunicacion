@@ -12,16 +12,8 @@ fun main(){
     if(respuesta == "S" || respuesta == "s" || respuesta == "Si" || respuesta == "si"){
         println("El personaje es ${personaje.clase},${personaje.nombre},${personaje.estado}")
     }else{
-        println("¿Que raza quieres que sea?(Elfo,Humano,Enano,Goblin o una que te inventes)")
-        personaje.clase = readLine().toString()
-        println("¿Que nombre quieres que tenga?(Si el personaje es un Elfo o un Goblin el nombre estara en elfico o goblin)")
-        personaje.nombre = readLine().toString()
-        println("¿Que edad quieres que tenga?(Adolescente,Adulto o Anciano)")
-        personaje.estado = readLine().toString()
+        personaje = personaje.crearPersonaje()
         println("El personaje es ${personaje.clase},${personaje.nombre},${personaje.estado}")
-    }
-    if(personaje.clase == "Elfo" || personaje.clase == "Goblin"){
-        println("El nombre del personaje es  ${EncriptarClase().control(personaje.nombre)}")
     }
 
 

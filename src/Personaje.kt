@@ -39,4 +39,17 @@ class Personaje{
         return nombre
     }
 
+    fun crearPersonaje():Personaje{
+        var personaje = Personaje()
+
+        println("¿Que raza quieres que sea?(Elfo,Humano,Enano,Goblin o una que te inventes)")
+        personaje.clase = readLine().toString()
+        println("¿Que nombre quieres que tenga?(Si el personaje es un Elfo o un Goblin el nombre estara en elfico o goblin)")
+        personaje.nombre = readLine().toString()
+        println("¿Que edad quieres que tenga?(Adolescente,Adulto o Anciano)")
+        personaje.estado = readLine().toString()
+
+        return personaje
+    }
+
 }
