@@ -17,15 +17,16 @@ fun main() {
     }
 
 
-
+    //Este if lo uso por que en la clase comunicacion tengo tres funciones una para cada tipo de estado
     if (personaje.estado == "Adolescente" || personaje.estado == "adolescente") {
         Comunicacion().adolescente(personaje.nombre, personaje.raza)
-    } /*else {
+    } else {
         if (personaje.estado == "Adulto" || personaje.estado == "adulto") {
-            //Comunicacion().adulto(personaje.nombre, personaje.raza)
+            Comunicacion().adulto(personaje.nombre, personaje.raza)
         } else {
             if (personaje.estado == "Anciano" || personaje.estado == "anciano")
-                //Comunicacion().anciano(personaje.nombre, personaje.raza)
+                Comunicacion().anciano(personaje.nombre, personaje.raza)
         }
-    }*/
+    }
+    println("Adios")
 }

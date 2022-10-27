@@ -52,6 +52,7 @@ class Personaje{
     }
 
 
+    //Esta clase es solo para crear el personaje si no quieres que sea aleatorio
     fun crearPersonaje():Personaje{
         var personaje = Personaje()
 

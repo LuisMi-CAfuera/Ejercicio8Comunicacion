@@ -2,6 +2,7 @@
 
 class Comunicacion {
     var respuesta: String = ""
+    //Funcion de adolescente aqui se ponen todos los dialogos de todas las razas cuando son adolescentes
     fun adolescente(nombre: String, raza: String) {
         if (raza == "Elfo" || raza == "elfo" || raza == "Goblin" || raza == "goblin") {
             do {
@@ -135,6 +136,7 @@ class Comunicacion {
             }
         }
     }
+    //Funcion de adultos aqui se ponen todos los dialogos de todas las razas cuando son adultos
 
     fun adulto(nombre: String, raza: String) {
         if (raza == "Elfo" || raza == "elfo" || raza == "Goblin" || raza == "goblin") {
@@ -269,7 +271,7 @@ class Comunicacion {
             }
         }
     }
-
+    //Funcion de anciano aqui se ponen todos los dialogos de todas las razas cuando son anciano
     fun anciano(nombre: String, raza: String) {
         if (raza == "Elfo" || raza == "elfo" || raza == "Goblin" || raza == "goblin") {
             do {

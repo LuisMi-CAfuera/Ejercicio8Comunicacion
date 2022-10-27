@@ -1,4 +1,5 @@
 public class EncriptarClase{
+    //Este es el mismo ejercicio de encriptar que se usa aqui para los elfos y goblin
     fun control(text : String):String{
         val abc="abcdefghijklmnñopqrstuvwxyz"
         var cifrado = ""
