@@ -1,4 +1,4 @@
-class EncriptarClase{
+public class EncriptarClase{
     fun control(text : String):String{
         val abc="abcdefghijklmnñopqrstuvwxyz"
         var cifrado = ""
