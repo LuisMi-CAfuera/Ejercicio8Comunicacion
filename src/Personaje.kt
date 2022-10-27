@@ -29,10 +29,10 @@ class Personaje{
         return edad
     }
 
-    //Funcion que me de un nombre del señor de los añillos(Por que me apetece) aleatorio de un array de 5
+    //Funcion que me de un nombre del EldenRing(Por que me apetece) aleatorio de un array de 7  nombres
     fun Nombre():String{
         var nombre : String = " "
-        var nombres = arrayOf("Frodo","Gandalf","Legolas","Gimli","Aragorn")
+        var nombres = arrayOf("Gwyn","Gwyndolin","Gwynevere","Malenia","Melina","Ranni","Radagon")
 
         nombre = nombres.random()
 

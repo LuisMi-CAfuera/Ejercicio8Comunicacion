@@ -21,7 +21,8 @@ fun main(){
         println("El personaje es ${personaje.clase},${personaje.nombre},${personaje.estado}")
     }
     if(personaje.clase == "Elfo" || personaje.clase == "Goblin"){
-        println("El personaje es un elfo")
+        println("El nombre del personaje es  ${EncriptarClase().control(personaje.nombre)}")
     }
+
 
 }
