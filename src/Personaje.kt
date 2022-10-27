@@ -41,7 +41,7 @@ class Personaje{
         return nombre
     }
 
-    //Funcion que me diga que tipo de clase soy en un rpg entre 4
+    //Funcion que me diga el tipo de clase
     fun Clase():String{
         var clase : String = " "
         var clases = arrayOf("Guerrero","Mago","Ladron","Berserk")

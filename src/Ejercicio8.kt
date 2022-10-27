@@ -22,10 +22,10 @@ fun main() {
         Comunicacion().adolescente(personaje.nombre, personaje.raza)
     } /*else {
         if (personaje.estado == "Adulto" || personaje.estado == "adulto") {
-            //Comunicacion().adulto(personaje.nombre, personaje.clase)
+            //Comunicacion().adulto(personaje.nombre, personaje.raza)
         } else {
             if (personaje.estado == "Anciano" || personaje.estado == "anciano")
-                //Comunicacion().anciano(personaje.nombre, personaje.clase)
+                //Comunicacion().anciano(personaje.nombre, personaje.raza)
         }
     }*/
 }
