@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0063999a-c243-4d95-93bb-6e7676546211" name="Changes" comment="Commit 10">
+    <list default="true" id="0063999a-c243-4d95-93bb-6e7676546211" name="Changes" comment="Commit 8">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Comunicacion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Comunicacion.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ejercicio8.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio8.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EncriptarClase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/EncriptarClase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Personaje.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personaje.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,15 +31,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/AlumnoM/Documents/DAM2-PMDM/Encriptado/src/Encriptar.kt",
-    "settings.editor.selected.configurable": "vcs.Perforce"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/AlumnoM/Documents/DAM2-PMDM/Encriptado/src/Encriptar.kt&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -93,35 +91,7 @@
       <option name="project" value="LOCAL" />
       <updated>1666872316415</updated>
     </task>
-    <task id="LOCAL-00007" summary="Commit 7">
-      <created>1666890745434</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1666890745434</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Commit 8">
-      <created>1666893234475</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1666893234475</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Commit 9">
-      <created>1666895578002</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1666895578002</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Commit 10">
-      <created>1666898251817</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1666898251817</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,9 +112,6 @@
     <MESSAGE value="Commit 5" />
     <MESSAGE value="Commit 6" />
     <MESSAGE value="Commit 7" />
-    <MESSAGE value="Commit 8" />
-    <MESSAGE value="Commit 9" />
-    <MESSAGE value="Commit 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 7" />
   </component>
 </project>

@@ -10,10 +10,10 @@ fun main() {
     var respuesta = readLine().toString()
 
     if (respuesta == "S" || respuesta == "s" || respuesta == "Si" || respuesta == "si") {
-        println("El personaje es ${personaje.clase},${personaje.nombre},${personaje.estado},${personaje.clase}")
+        println("El personaje es ${personaje.raza},${personaje.nombre},${personaje.estado},${personaje.clase}")
     } else {
         personaje = personaje.crearPersonaje()
-        println("El personaje es ${personaje.clase},${personaje.nombre},${personaje.estado},${personaje.clase}")
+        println("El personaje es ${personaje.raza},${personaje.nombre},${personaje.estado},${personaje.clase}")
     }
 
 
@@ -28,5 +28,8 @@ fun main() {
                 Comunicacion().anciano(personaje.nombre, personaje.raza)
         }
     }
-    println("Adios")
+
+    if (personaje.raza == "Elfo" || personaje.raza == "elfo" || personaje.raza == "Goblin" || personaje.raza == "Goblin") {
+        println(EncriptarClase().control("Adios"))
+    }
 }
